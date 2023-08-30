@@ -4,11 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso SASS</title>
-    <link rel="stylesheet" href="./styles/styles.css" type="text/css">
+    <link rel="stylesheet" href="./css/styles.css" type="text/css">
 </head>
 <body>
-    <div>
+    <div class="header">
         <h1 id="titulo">Curso SASS</h1>
+    </div>
+    <div class="content">
+        <form class="formulario">
+            <label for="nombre">Nombre y Apellido</label>
+            <input type="text" id="nombre">
+            <label for="mail">Mail</label>
+            <input type="email" id="mail">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono">
+            <label for="observaciones">Observaciones</label>
+            <textarea id="observaciones"></textarea>
+            <button class="boton" type="submit">Enviar</button>
+        </form>
     </div>
 </body>
 </html>

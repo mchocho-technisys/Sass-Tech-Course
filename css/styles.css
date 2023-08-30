@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  flex-flow: row;
+  height: 60px;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background: #111;
+}
+.header #titulo {
+  color: #ffffff;
+}
+
+.content .formulario {
+  display: flex;
+  flex-flow: column;
+  color: #333;
+  align-content: center;
+  align-items: center;
+}
+
+.boton {
+  background-color: #417ae4;
+  color: #ffffff;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/*# sourceMappingURL=styles.css.map */
