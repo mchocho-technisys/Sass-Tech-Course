@@ -39,11 +39,14 @@
 }
 
 .boton {
+  background-color: #417ae4;
+  color: #ffffff;
+}
+
+.boton {
   border: 0;
   border-radius: 5px;
   padding: 5px;
-  background-color: #417ae4;
-  color: #ffffff;
 }
 
 .boton-cancelar {
