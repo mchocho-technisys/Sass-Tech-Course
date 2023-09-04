@@ -1,0 +1,14 @@
+=boton()
+    border: 0
+    border-radius: 5px
+    padding: 5px
+
+=titulos($tamano)
+    h1
+        font-size: $tamano
+    h2
+        font-size: $tamano - 2
+
+=parrafos()
+    @media screen and (max-width: 700px)
+        +titulos(1rem)
